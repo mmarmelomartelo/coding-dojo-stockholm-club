@@ -70,50 +70,8 @@ img {
 .hero-image {
     width:66.66%;
 
-    
-    /* 
-    background: url(../images/hero-image.webp) no-repeat center center;
-*/
-}
-footer {
-    height: 100px;
-}
+ 
 
-.socialnetworks-links {
-    text-align: center;
-}
-
-.socialnetworks-links > li {
-    display: inline;
-}
-
-.socialnetworks-links i {
-    font-size: 200%;
-    margin: 1%;
-    padding: 3%;
-    color: #02577a;
-}
-
-.socialnetworks-links p {
-    font-size: 100%;
-    margin: 1%;
-    padding: 3%;
-    color: #02577a;
-}
-
-.codeimage > div > img {
-    margin-left: 20px;
-    width: 66%;
-    height: 30px;
-    margin-top: auto;
-    margin-right: 40px;
-    
-}
-#copyright > p{
-    text-align: center;
-    margin: 20px 0;
-    font-size: 110%;
-    color: #02577a;
 }
 
 .call-box {
@@ -168,14 +126,28 @@ display: inline-block;
         left: 20%;
         top: 150px;
     }
-    
-    footer {
-        background-color: #62b1df;
-        padding: 0.5em;
-        text-align: center;
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        
-    }
+/* footer style elements*/
+footer {
+    position: absolute;
+    text-align: center;
+    background-color: #e7fcfe;
+    width: 100%;
+    bottom: 0;
+    margin-top:0 ;
+    right: 0;
+}
+
+footer div {
+    color: #02577a;
+    padding-bottom: 5px;
+}
+
+.socialnetworks-links > li {
+    display: inline;
+}
+
+.socialnetworks-links i {
+    font-size: 170%;
+    margin: 2%;
+    color: #02577a;
+}
