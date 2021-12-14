@@ -4,11 +4,19 @@
     margin: 0;
     padding: 0;
     border: 0;
+    
 }
 
 body{
+    position: relative;
     font-family: Roboto Condensed, sans-serif;
     font-weight: 400;
+    color: #02577a;
+}
+
+
+section{
+    position: relative;
     color: #02577a;
 }
 
@@ -16,6 +24,12 @@ h1, h2 {
     font-family: Roboto Condensed, sans-serif;
     text-transform: uppercase;
     color: #02577a;
+}
+
+img {
+	border-radius: 8px;
+	width: 100%;
+	margin: 2%;
 }
 
 #logo {
@@ -27,15 +41,17 @@ h1, h2 {
 #menu {
     font-size: 100%;
     letter-spacing: 1px;
+    
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 70px;
 }
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    
 }
 
 #menu a {
@@ -51,6 +67,14 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+.hero-image {
+    width:66.66%;
+
+    
+    /* 
+    background: url(../images/hero-image.webp) no-repeat center center;
+*/
+}
 footer {
     height: 100px;
 }
@@ -77,12 +101,13 @@ footer {
     color: #02577a;
 }
 
-.codeimage {
+.codeimage > div > img {
     margin-left: 20px;
-    max-width: 200px;
-    max-height: 300px;
+    width: 66%;
+    height: 30px;
     margin-top: auto;
-    margin-right: 200px;
+    margin-right: 40px;
+    
 }
 #copyright > p{
     text-align: center;
@@ -91,11 +116,66 @@ footer {
     color: #02577a;
 }
 
+.call-box {
+padding: 10px 5px 25px 5px;
+border-radius: 8px;
+width: 100%;
+margin: 2%;
+background-color: chocolate;
+position: relative;
+left: 20%;
+top: 30px;
+display: inline-block;
+}
 
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
 
 
 #copyright {
+    position: relative;
     color:#01303f ;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     font-size: 110%;
 }
+
+.text-center {
+    text-align: center;
+}
+    .one-third-width-column {
+        width: 33.33%;
+        display: inline-block;
+    }
+    
+    .two-thirds-width-column {
+        width: 66.66%;
+        display: inline-block;
+    }
+    
+    .reasons-box {
+        padding: 10px 5px 25px 5px;
+        border-radius: 8px;
+        border-color: rgb(45, 3, 75);
+        width: 100%;
+        margin: 2%;
+        background-color: rgb(252, 247, 243);
+        position: relative;
+        left: 20%;
+        top: 150px;
+    }
+    
+    footer {
+        background-color: #62b1df;
+        padding: 0.5em;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        
+    }
