@@ -7,6 +7,9 @@
     
 }
 
+html, body {
+    height: 100%;
+}
 body{
     position: relative;
     font-family: Roboto Condensed, sans-serif;
@@ -63,6 +66,13 @@ img {
     border-bottom: 1px solid #3a3a3a;
 }
 
+.main-image {
+    overflow: hidden;
+    height: 600px;
+    width: 66%;
+    background: url("../images/pexels-olia-danilevich-4974915.jpg") no-repeat center center;
+}
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -94,14 +104,6 @@ display: inline-block;
     float: right;
 }
 
-
-#copyright {
-    position: relative;
-    color:#01303f ;
-    margin-bottom: 100px;
-    font-size: 110%;
-}
-
 .text-center {
     text-align: center;
 }
@@ -127,14 +129,14 @@ display: inline-block;
         top: 150px;
     }
 /* footer style elements*/
-footer {
-    position: absolute;
+#footer {
+    position: relative;
     text-align: center;
     background-color: #e7fcfe;
     width: 100%;
-    bottom: 0;
-    margin-top:0 ;
-    right: 0;
+    height: 100px;
+    margin-top:-100px;
+    overflow: hidden;
 }
 
 footer div {
