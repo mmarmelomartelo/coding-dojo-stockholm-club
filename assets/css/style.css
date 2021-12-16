@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
-    
+
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
-body{
+
+body {
     position: relative;
     font-family: Roboto Condensed, sans-serif;
     font-weight: 400;
@@ -18,21 +20,19 @@ body{
 }
 
 
-section{
-    position: relative;
-    color: #02577a;
-}
 
-h1, h2 {
+h1,
+h2 {
     font-family: Roboto Condensed, sans-serif;
     text-transform: uppercase;
     color: #02577a;
 }
 
 img {
-	border-radius: 8px;
-	width: 100%;
-	margin: 2%;
+    border-radius: 8px;
+    width: 100%;
+    margin: 2%;
+    padding: 5px 5px;
 }
 
 #logo {
@@ -44,17 +44,19 @@ img {
 #menu {
     font-size: 100%;
     letter-spacing: 1px;
-    
+
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 70px;
 }
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    
+
 }
 
 #menu a {
@@ -69,33 +71,30 @@ img {
 .main-image {
     overflow: hidden;
     height: 600px;
-    width: 66%;
-    background: url("../images/pexels-olia-danilevich-4974915.jpg") no-repeat center center;
+    width: 100%;
+    background-color: burlywood;
+    /*background: url("../images/pexels-olia-danilevich-4974915.jpg") no-repeat center center;*/
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.hero-image {
-    width:66.66%;
-
- 
-
-}
-
 .call-box {
-padding: 10px 5px 25px 5px;
-border-radius: 8px;
-width: 100%;
-margin: 2%;
-background-color: chocolate;
-position: relative;
-left: 20%;
-top: 30px;
-display: inline-block;
+    padding: 10px 5px 25px 5px;
+    border-radius: 8px;
+    width: 100%;
+    margin: 2%;
+    background-color: chocolate;
+    position: relative;
+    left: 20%;
+    top: 30px;
+    display: inline-block;
+    
 }
-
+.text-white ol {
+    list-style-type: none;
+}
 .float-left {
     float: left;
 }
@@ -107,36 +106,28 @@ display: inline-block;
 .text-center {
     text-align: center;
 }
-    .one-third-width-column {
-        width: 33.33%;
-        display: inline-block;
-    }
+
+.one-third-width-column {
+    width: 33.33%;
+    display: inline-block;
+}
+
+.two-thirds-width-column {
+    width: 66.66%;
+    display: inline-block;
     
-    .two-thirds-width-column {
-        width: 66.66%;
-        display: inline-block;
-    }
-    
-    .reasons-box {
-        padding: 10px 5px 25px 5px;
-        border-radius: 8px;
-        border-color: rgb(45, 3, 75);
-        width: 100%;
-        margin: 2%;
-        background-color: rgb(252, 247, 243);
-        position: relative;
-        left: 20%;
-        top: 150px;
-    }
-/* footer style elements*/
-#footer {
-    position: relative;
-    text-align: center;
-    background-color: #e7fcfe;
+}
+
+.reasons-box {
+    padding: 10px 5px 25px 5px;
+    border-radius: 8px;
+    border-color: rgb(45, 3, 75);
     width: 100%;
-    height: 100px;
-    margin-top:-100px;
-    overflow: hidden;
+    margin: 2%;
+    background-color: rgb(252, 247, 243);
+    position: relative;
+    left: 20%;
+    top: 150px;
 }
 
 footer div {
@@ -144,7 +135,17 @@ footer div {
     padding-bottom: 5px;
 }
 
-.socialnetworks-links > li {
+#footer {
+    position: relative;
+    text-align: center;
+    background-color: #e7fcfe;
+    width: 100%;
+    height: 150px;
+    margin-top: -150px;
+    overflow: hidden;
+}
+
+.socialnetworks-links>li {
     display: inline;
 }
 
