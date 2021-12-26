@@ -27,12 +27,6 @@ h1, h2 {
     color: #02577a;
 }
 
- h2 {
-    font-family: Roboto Condensed, sans-serif;
-    text-transform: uppercase;
-    color: white;
-}
-
 img {
     border-radius: 5%;
     border-color: rgb(222, 167, 135);
@@ -81,6 +75,7 @@ img {
     height: 100%;
     background-color: #00415a;
     overflow: hidden;
+    
 }
 
 .main-image {
@@ -178,6 +173,10 @@ img {
   .card {
     padding: 1rem;
     background: lightblue;
+  }
+
+  #flex_content{
+    display: flex;
   }
 
 footer div {
