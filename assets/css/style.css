@@ -21,7 +21,8 @@ body {
 
 
 
-h1, h2 {
+h1,
+h2 {
     font-family: Roboto Condensed, sans-serif;
     text-transform: uppercase;
     color: #02577a;
@@ -35,6 +36,10 @@ img {
     height: 20%;
     margin: 1%;
     padding: 0;
+}
+
+ol * {
+    list-style-type: none;
 }
 
 #logo {
@@ -75,45 +80,25 @@ img {
     height: 100%;
     background-color: #00415a;
     overflow: hidden;
-    
+
 }
 
-.main-image {
+.message-container {
     overflow: hidden;
-    height: 600px;
+    min-height: 50vh;
     width: 100%;
-    background-color: burlywood;
-    /*background: url("../images/pexels-olia-danilevich-4974915.jpg") no-repeat center center;*/
-}
+    background-color: #00b8ff;
+    border-radius: 2%;
 
-.main-image-2 {
-    overflow: hidden;
-    height: 600px;
-    width: 100%;
-    background-color: rgb(135, 222, 222);
-    background: url("../images/pexels-olia-danilevich-4974915.jpg") no-repeat center center;
-}
+    margin: 1%;
+    padding: 0;
 
+}
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.call-box {
-    padding: 10px 5px 25px 5px;
-    border-radius: 8px;
-    width: 100%;
-    margin: 2%;
-    background-color: chocolate;
-    position: relative;
-    left: 20%;
-    top: 30px;
-    display: inline-block;
-    
-}
-.text-white ol {
-    list-style-type: none;
-}
 .float-left {
     float: left;
 }
@@ -134,16 +119,15 @@ img {
 .two-thirds-width-column {
     width: 66.66%;
     display: inline-block;
-    
+
 }
 
 .reasons-box {
     padding: 10px 5px 25px 5px;
     border-radius: 8px;
-    border-color: rgb(45, 3, 75);
     width: 100%;
     margin: 2%;
-    background-color: rgb(252, 247, 243);
+    background-color: #e7fcfe;
     position: relative;
     left: 20%;
     top: 150px;
@@ -155,29 +139,27 @@ img {
     align-items: center;
     gap: 0.5rem;
     border: 10px solid #00b8ff;
-    
-  }
-  
-  @media (min-width: 600px) {
+
+}
+
+@media (min-width: 600px) {
     .columns {
-      flex-direction: row;
+        flex-direction: row;
     }
-  }
-  
-  .columns > * {
+}
+
+.columns>* {
     flex-basis: 100%;
-  }
-  
-  /* general styling */
-  
-  .card {
+}
+
+.card {
     padding: 1rem;
     background: lightblue;
-  }
+}
 
-  #flex_content{
+#flex_content {
     display: flex;
-  }
+}
 
 footer div {
     color: #02577a;
