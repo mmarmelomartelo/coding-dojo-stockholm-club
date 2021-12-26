@@ -172,6 +172,10 @@ footer div {
     clear: both;
 }
 
+.white-text {
+    color: white;
+}
+
 .socialnetworks-links>li {
     display: inline;
 }
