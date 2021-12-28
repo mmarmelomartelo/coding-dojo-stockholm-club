@@ -38,33 +38,30 @@
 
         <form method="POST" action="https://formdump.codeinstitute.net/" class="form-style">
             <h2>Signup for our newsletter and get informed! </h2>
-            <br>
             <p>When we have a new remote DOJO we will let you know by email</p>
-            <br>
-            <label for="first_name">First Name:</label>
-            <input type="text" name="first_name" id="first_name" required>
-            <br>
-            <label for="last_name">Last Name:</label>
-            <input type="text" name="last_name" id="last_name" required>
-            <br>
-            <label for="email">E-mail:</label>
-            <input type="email" name="email_address" id="email" required>
-            <br>
-            <br>
+
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" class="text-input" required>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" class="text-input" required>
+            <label for="email">E-mail</label>
+            <input type="email" name="email_address" id="email" class="text-input" required>
+
             <h3>Which language do you have more interest in?</h3>
             <br>
-            <input type="radio" name="language" id="label_css" value="language_css" required>
+            <input type="radio" name="_css_" id="label_css" required>
             <label for="label_css">CSS</label>
-            <input type="radio" name="language" id="label_js" value="language_js">
+            <input type="radio" name="_js_" id="label_js">
             <label for="label_js">JavaScript</label>
-            <input type="radio" name="language" id="label_python" value="language_python">
+            <input type="radio" name="_python_" id="label_python">
             <label for="label_python">Python</label>
-            <input type="radio" name="language" id="label_any" value="language_any">
+            <input type="radio" name="_any_" id="label_any">
             <label for="label_any">Any Language</label>
             <br>
-            <input type="submit" value="Let's code!">
-            <input type="reset" value="Clear Form">
+            <input type="submit" value="Let's code!" class="style-button">
+            <input type="reset" value="Clear Form" class="style-button">
         </form>
+
 
 
     </section>
