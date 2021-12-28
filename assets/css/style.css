@@ -74,7 +74,7 @@ ol * {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
- }
+}
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -96,8 +96,8 @@ ol * {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem;responsivenes 
-    border: 2px solid #00b8ff;
+    gap: 0.5rem;
+    responsivenes border: 2px solid #00b8ff;
 }
 
 @media (min-width: 600px) {
@@ -120,7 +120,7 @@ ol * {
     background-color: #e7fcfe;
     position: relative;
     margin: 1%;
-    
+
 }
 
 .schedule-card {
@@ -132,9 +132,9 @@ ol * {
     background-color: #e7fcfe;
     position: relative;
     margin-bottom: 0.2%;
-   
-  }
-  
+
+}
+
 
 .card {
     padding: 1rem;
@@ -177,13 +177,25 @@ footer div {
 /* css code specific for newsletter and signup page starts here */
 
 .newsletter-form {
- background-image: url("../images/pexels-cottonbro-5474037-blue.jpg");
- background-size: cover;
- background-position: center;
- width: 100%;
- height: 900px;
- clear: both;
- position: relative;
+    background-image: url("../images/pexels-cottonbro-5474037-blue.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+    clear: both;
+    position: relative;
+}
 
+.form-style {
+    text-align: center;
+    margin: 150px 20% 0 0;
+    left: 15%;
+    border-radius: 15px;
+    padding: 20px;
+    color: inherit;
+    background-color: rgba(231,252,254, 0.8);
+    max-width: 500px;
+    position: absolute;
+    
 
 }
