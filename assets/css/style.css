@@ -25,10 +25,11 @@ h2 {
 
 img {
     border-radius: 2%;
-    width: 50px;
-    height: 10%;
-    margin: 0.51%;
-    padding: 0;
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 ol * {
