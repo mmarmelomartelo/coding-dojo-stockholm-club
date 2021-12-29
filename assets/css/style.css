@@ -10,7 +10,7 @@
 html,
 body {
     position: relative;
-    font-family: Roboto Condensed, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     color: #02577a;
     min-height: 100vh;
@@ -18,7 +18,7 @@ body {
 
 h1,
 h2 {
-    font-family: Roboto Condensed, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     color: #02577a;
 }
@@ -191,7 +191,7 @@ footer div {
 .form-style {
     margin: 150px;
     padding: 35px;
-    color: inheret;
+    color: inherit;
     background-color: rgba(231, 252, 254, 0.9);
     max-width: 500px;
     position: absolute;
@@ -222,7 +222,7 @@ form h3, p {
     font-size: 100%;
     background-color: #e7fcfe;
     color: #00415a;
-    display: inline block;
+    display: inline-block;
     border: 1px solid #00415a;
 
 }
