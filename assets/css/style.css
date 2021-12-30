@@ -118,6 +118,11 @@ ol * {
      margin-right: 20px;
      }
  
+     .card img {
+    width: auto;
+    height: auto;
+    }
+
  }
  
 
@@ -125,6 +130,7 @@ ol * {
     .columns {
         flex-direction: row;
     }
+    
 }
 
 .columns>* {
@@ -142,13 +148,6 @@ ol * {
     position: relative;
     margin: 1%;
 
-}
-
-
-.card img {
-    width: auto;
-    height: auto;
-    
 }
 
 .schedule-card {
