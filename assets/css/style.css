@@ -96,7 +96,7 @@ ol * {
 .columns {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin: 10px;
     gap: 0.5rem;
 
@@ -133,8 +133,8 @@ ol * {
 
 .card {
     padding: 1rem;
-    width: 100%;
     display: inline-block;
+   
     display: flex;
     flex-direction: column;
     border-radius: 8px;
@@ -142,6 +142,13 @@ ol * {
     position: relative;
     margin: 1%;
 
+}
+
+
+.card img {
+    width: auto;
+    height: 400px;
+    
 }
 
 .schedule-card {
