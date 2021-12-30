@@ -118,19 +118,22 @@ ol * {
      margin-right: 20px;
      }
  
-     .card img {
-    width: auto;
-    height: auto;
-    }
-
  }
  
-
-@media (min-width: 600px) {
+ 
+ @media (min-width: 600px) {
     .columns {
         flex-direction: row;
     }
-    
+ }
+
+
+@media (min-width: 600px) {
+    .card img {
+        width: auto;
+        height: 400px;
+        object-fit: contain;
+     }
 }
 
 .columns>* {
