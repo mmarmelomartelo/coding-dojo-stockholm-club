@@ -99,7 +99,7 @@ ol * {
     align-items: center;
     margin: 10px;
     gap: 0.5rem;
-   
+
 }
 
 @media (min-width: 600px) {
@@ -210,7 +210,8 @@ footer div {
     border-radius: 3px;
 }
 
-form h3, p {
+form h3,
+p {
     padding: 20px 0 10px 0;
 }
 
@@ -230,4 +231,17 @@ form h3, p {
 .style-button:hover {
     background-color: #00415a;
     color: #e7fcfe;
+}
+
+@media screen and (max-width: 600px) {
+    .form-style {
+        margin: 20px;
+        padding: 10px;
+        color: inherit;
+        background-color: rgba(231, 252, 254, 0.9);
+        max-width: 566px;
+        position: absolute;
+        border-radius: 5px;
+
+    }
 }
