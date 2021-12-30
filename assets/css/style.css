@@ -172,6 +172,12 @@ ol * {
 }
 
 
+.card ul {
+    padding: 1rem;
+    
+}
+
+
 #flex_content {
     display: flex;
 }
