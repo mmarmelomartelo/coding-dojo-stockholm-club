@@ -1,10 +1,10 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# DOJO CLUB STOCKHOLM
+## AIMs:
+The goal for this project was to create a webpage of a fictional DOJO Club in Stockholm, using HTML and CSS. The page uses semantic HTML and ARIA elements and is a responsive website across different screen sizes. A blue color palette was chosen for this project. The main aim is to invite new users to their code DOJO club, give some basic information about DOJO programing, invite users to participate and sign their newsletter. 
 
-Welcome Marcelo  Montenegro,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Imgur](https://i.imgur.com/DAZZwUA.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
 ## Gitpod Reminders
 
