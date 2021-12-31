@@ -111,14 +111,12 @@ ol * {
           letter-spacing: 0px;
  
      }
- 
      #menu li {
      float: right;
      list-style-type: none;
      margin-right: 20px;
      }
- 
- }
+  }
  
  
  @media (min-width: 600px) {
@@ -126,7 +124,6 @@ ol * {
         flex-direction: row;
     }
  }
-
 
 @media (min-width: 600px) {
     .card img {
@@ -150,7 +147,6 @@ ol * {
     background-color: #e7fcfe;
     position: relative;
     margin: 1%;
-
 }
 
 .schedule-card {
@@ -162,26 +158,21 @@ ol * {
     background-color: #e7fcfe;
     position: relative;
     margin-bottom: 0.2%;
-
 }
 
 .schedule-card ul {
     padding: 1rem;
    }
 
-
-
 .card {
     padding: 1rem;
     background: lightblue;
 }
 
-
 .card ul {
     padding: 1rem;
     
 }
-
 
 #flex_content {
     display: flex;
@@ -215,8 +206,6 @@ footer div {
     color: #02577a;
 }
 
-/* css code specific for newsletter and signup page starts here */
-
 .newsletter-form {
     background-image: url("../images/pexels-cottonbro-5474037-blue.jpg");
     background-size: cover;
@@ -236,7 +225,6 @@ footer div {
     position: absolute;
     left: 5%;
     border-radius: 5px;
-
 }
 
 .text-input {
@@ -264,7 +252,6 @@ p {
     color: #00415a;
     display: inline-block;
     border: 1px solid #00415a;
-
 }
 
 .style-button:hover {
@@ -281,6 +268,5 @@ p {
         max-width: 566px;
         position: absolute;
         border-radius: 5px;
-
     }
 }
