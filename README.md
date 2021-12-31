@@ -40,3 +40,56 @@ The goal for this project was to create a webpage of a fictional DOJO Club in St
 ![Imgur](https://i.imgur.com/BdlynOy.png)
 
 ---
+
+## Testing
+
+The page was tested in the following browsers:
+* Chrome, Edge (PC)
+* Safari (Ipad)
+
+The responsiveness for the page was tested using the dev tools and  in the following devices:
+* Xiaomi Mi 10T-Lite - responsive and clear reading
+* Huawei p20 pro -  responsive and clear reading
+* Ipad 8th generation - responsive and clear reading
+
+The form also works perfectly in these devices, including the validation for email and empty inputs.
+
+---
+
+## Bugs
+
+### Solved bugs
+
+1. CSS not loading for all pages:
+After deployment, I realized that the CSS in some pages was not loading, and thus the style was not present. I figured out that it was due to an extra "/" in the begin of my CSS link.
+
+The error:
+
+ * link rel="stylesheet" href="/assets/css/style.css">
+
+The corrected link:
+
+ * link rel="stylesheet" href="assets/css/style.css">
+
+
+2. Poor performance the lighthouse test:
+
+The lighthouse test was given a very low score for the page performance:
+
+The panel “a” shows the initial report after deployment. It was due to the very large images used in the initial project. To solve it, I  resized down all the photos from the project and added a missing aria element in a link on page placesandhours.html. It improved the score but still presented a poor performance, as you may see in panel “b.” Finally, I figured out that browser chrome had an extension installed that was down-performing the page load. I uninstalled the extension, and the lighthouse test reached a high score, as seen in panel “c”
+
+![Imgur](https://i.imgur.com/6XcaFYT.png)
+
+## Unsolved bugs:
+
+I found that the user still can submit numbers or special characters as input in the text fields in the newsletter formulary.
+
+---
+
+## Deployment
+
+The page was deployed in the github pages following the instructions from github.
+
+The link to access is below:
+[DOJO CLUB IN STOCKHOLM](https://mmarmelomartelo.github.io/coding-dojo-stockholm-club/index.html)
+
