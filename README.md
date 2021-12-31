@@ -33,16 +33,10 @@ The goal for this project was to create a webpage of a fictional DOJO Club in St
 
 --- 
 
-## Gitpod Reminders
+* The signup page invites interested participants to sign up for the club newsletter and ask the language interests of the users.
+* The form validates empty input or lack of email and also provide a reset button 
+* The navigation and footer elements are in the same positions for consistency across the pages. 
 
+![Imgur](https://i.imgur.com/BdlynOy.png)
 
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
+---
