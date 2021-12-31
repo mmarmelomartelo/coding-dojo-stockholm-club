@@ -5,35 +5,30 @@ The goal for this project was to create a webpage of a fictional DOJO Club in St
 
 ![Imgur](https://i.imgur.com/DAZZwUA.png)
 
+---
+
 ## Features
 
 * The landing page shows the club's name using a clear h1 element, and the navigation elements are positioned in the upright corner. 
-* The informative box highlight whats is DOJO and invite the reader to participate in the club
+* The informative box highlight what DOJO is and invite the reader to participate in the club
 * The footer element has links to social media pages from the club.
 * This basic layout is kept over different pages for consistency. The links are underlying on the active page to help the user to know which page they are visiting.
 
 ![Imgur](https://i.imgur.com/4HyszF9.png)
 
+---
+* The page 2 explains what DOJO programming is and describes how is a DOJO section set up, and includes an image from a DOJO section.
+* It  also describes the DOJO flow  with text and has a schematic a draw explaining the DOJO flow (not seen in the image below)
+* The navigation and footer elements are in the same positions for consistency across the pages. 
+
+![Imgur](https://i.imgur.com/xXBkGH6.png)
+
+---
+
 
 ## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
 
 1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
 2. Scroll down to the *API Key* and click *Reveal*
@@ -83,35 +78,3 @@ We continually tweak and adjust this template to help give you the best experien
 
 **Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
