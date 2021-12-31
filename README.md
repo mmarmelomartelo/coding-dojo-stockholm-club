@@ -5,6 +5,15 @@ The goal for this project was to create a webpage of a fictional DOJO Club in St
 
 ![Imgur](https://i.imgur.com/DAZZwUA.png)
 
+## Features
+
+* The landing page shows the club's name using a clear h1 element, and the navigation elements are positioned in the upright corner. 
+* The informative box highlight whats is DOJO and invite the reader to participate in the club
+* The footer element has links to social media pages from the club.
+* This basic layout is kept over different pages for consistency. The links are underlying on the active page to help the user to know which page they are visiting.
+
+![Imgur](https://i.imgur.com/4HyszF9.png)
+
 
 ## Gitpod Reminders
 
