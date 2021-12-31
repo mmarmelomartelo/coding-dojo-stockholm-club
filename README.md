@@ -91,5 +91,47 @@ I found that the user still can submit numbers or special characters as input in
 The page was deployed in the github pages following the instructions from github.
 
 The link to access is below:
+
 [DOJO CLUB IN STOCKHOLM](https://mmarmelomartelo.github.io/coding-dojo-stockholm-club/index.html)
+
+---
+
+## Credits:
+Good practices to a good markdown:
+
+https://www.markdownguide.org/basic-syntax/
+
+Images used in this project:
+
+https://www.pexels.com/photo/person-using-gray-laptop-3861964/
+
+https://www.pexels.com/photo/man-sitting-in-front-of-three-computers-4974915/ 
+
+https://www.pexels.com/photo/man-in-white-crew-neck-shirt-5474037/ *
+
+*This image was treated in photoshop to replace the green color with blue and thus fit the color palette chosen for this project.
+
+
+On-Line tool to minimize the excess of commits during tests*:
+
+https://codepen.io/pen/tour/welcome/start
+
+*Due to my lack of experience, I changed the project very much by doing too many tests. As a result, I often changed it too much, resulting in very long and confusing commits to be analyzed. Then, to overcome this, I used two strategies to minimize it. The first was to make a list of changes on a piece of paper and try to solve each issue of the list in 20 min using a timer. The second was to use codepen to test the changes. It minimized the changes in the project and optimized my commits.
+
+Color Palette used:
+
+https://www.color-hex.com/color-palette/7133
+
+Color contrast analyzer:
+
+https://color.adobe.com/create/color-contrast-analyzer
+
+Screenshot from responsive pages in different screens:
+
+http://ami.responsivedesign.is/
+
+The links for social media in all pages in this projet uses the same code from love running project, and can be found on the page below:
+
+https://mmarmelomartelo.github.io/love-running-project/index.html
+
 
